@@ -1,7 +1,8 @@
-# PhoneBuzz - Phase 2
+# PhoneBuzz - Phase 3
 An implementation of FizzBuzz but over the phone using [Twilio](https://www.twilio.com/). It's a simple API that requires you to have a Twilio number to access the endpoint and the PhoneBuzz magic.
 
 Created by: Anja Draskovic
+
 Purpose: LendUp coding challenge
 
 ##Process
@@ -17,4 +18,4 @@ Under Phone Number > Manage, change the Request URL for your numbers Voice capab
 
 After starting the server, open: example.com/phonebuzz
 
-The landing page will prompt you to submit a phone number. Once submitted the number entered will be dialed and the Phonebuzz game will start. 
+The landing page will prompt you to submit a phone number and how long you would like the phone call to delay. Once submitted the number entered will be dialed after the specified time interval and the Phonebuzz game will start. 
