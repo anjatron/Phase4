@@ -2,7 +2,7 @@
   "name": "phonebuzz",
   "version": "1.0.0",
   "description": "An implementation of FizzBuzz but over the phone using Twilio.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/anjatron/PhoneBuzz#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "body-parser": "1.14.2",
+    "express": "4.13.4",
+    "twilio": "2.8.0"
   }
 }

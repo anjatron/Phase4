@@ -1,0 +1,39 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	margin:0 0 .5em 0;
+	position: relative;
+}
+
+#wrapper {
+	padding-left:312px;
+	position:relative;
+}
+
+button#dial_number {
+	border: 3px solid #fff;
+	font-family: inherit;
+	font-size: inherit;
+	width: 120px;
+	height: 45px;
+}
+
+input {
+	padding: 2px 2px 2px 2px;
+	margin: 0px 5px 5px 40px;
+	width: 250px;
+	height: 30px;
+	position: relative;
+	font-size: 14px;
+}
+
+fieldset {
+	position: absolute;
+	border: 0;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	background-color: #00B7FF;
+}

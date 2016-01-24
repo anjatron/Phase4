@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	h1 Hello, World
+	p Welcome to PhoneBuZZ
+
+	br 
+	h3 Enter a phone number to begin:
+
+	from#numberForm
+		input(type='text', id='phone_number', placeholder='+1###-###-####')
+		button(type='button', id='dial_number')
+			| Dial Number
