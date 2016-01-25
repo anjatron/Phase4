@@ -9,7 +9,9 @@ var credentials = {
 
 	TWILIO_NUMBER: '+18173506843',
 
-	SERVER_URL: 'https://fc2f7b87.ngrok.io'
+	SERVER_URL: 'https://fc2f7b87.ngrok.io',
+
+	DB_URL: 'mongodb://localhost:27017/Phase4'
 }
 
 module.exports = credentials;

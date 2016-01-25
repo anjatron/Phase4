@@ -1,6 +1,7 @@
 body {
-  padding: 30px;
+  /*padding: 30px;*/
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0 !important;
 }
 
 h2 {
@@ -8,9 +9,23 @@ h2 {
 	position: relative;
 }
 
+#banner {
+	width: 100%;
+	height: 130px;
+	background-color: #6D8CA0;
+	padding: 20px;
+	margin: 0px 5px 5px 0px;
+}
+
 #wrapper {
-	padding-left:312px;
+	padding-left: 30px;
 	position:relative;
+}
+
+#tableWrapper {
+	padding-left: 25%;
+	margin-top: 50px;
+	position: relative;
 }
 
 button#dial_number {
@@ -23,11 +38,15 @@ button#dial_number {
 
 input {
 	padding: 2px 2px 2px 2px;
-	margin: 0px 5px 5px 40px;
+	margin: 0px 5px 5px 15px;
 	width: 250px;
 	height: 30px;
 	position: relative;
 	font-size: 14px;
+}
+
+input#time_delay {
+	margin: 0px 5px 5px 40px;	
 }
 
 fieldset {
@@ -36,4 +55,45 @@ fieldset {
 	padding: 10px 10px 10px 10px;
 	margin: 0;
 	background-color: #00B7FF;
+}
+
+#callHistory {
+	margin:0 0 30px 0;
+	width:500px;
+	position:relative;
+	top:0; 
+	left:0;
+}
+#callHistory table {
+	border-collapse:separate;
+	border-spacing:1px;
+	background:#CCC;
+}
+#callHistory table tr {
+	border-collapse:separate;
+	border-spacing:1px;
+	background:#CCC;
+}
+#callHistory table th {
+	background:#EEE;
+	font-weight:600;
+	padding:10px 20px;
+	text-align:center;
+}
+#callHistory table tbody {
+	padding:0; 
+	margin:0;
+	border-collapse:collapse;
+	border-spacing:0px;
+}
+#callHistory table td {
+	background:#FFF;
+	padding:5px 10px;
+	text-align:center;
+}
+#callHistory p {
+	padding:15px;
+	border:1px 
+	solid #CCC;
+	background:rgba(80,120,255,0.05);
 }

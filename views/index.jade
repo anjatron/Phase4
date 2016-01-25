@@ -1,13 +1,40 @@
 extends layout
 
+block banner
+	#banner
+		h1 Hello, World
+		p Welcome to PhoneBuZZ
+
 block content
-	h1 Hello, World
-	p Welcome to PhoneBuZZ
+	#wrapper
+		// MAKE SOME CALLS
+		br 
+		h3 Enter a number and call delay to begin:
 
-	br 
-	h3 Enter a phone number to begin:
+		from#numberForm
+			label Phone Number:
+			input(type='text', id='phone_number', placeholder='##########')
+			br
+			label Time Delay:
+			input(text='text', id='time_delay', placeholder='Examples: 1 minute')
+			br
+			br
+			button(type='button', id='dial_number')
+				| Dial Number
 
-	from#numberForm
-		input(type='text', id='phone_number', placeholder='+1###-###-####')
-		button(type='button', id='dial_number')
-			| Dial Number
+		// ALL CALLS
+		br
+
+	#tableWrapper
+		h2 Call History
+		#callHistory
+			table#dataTable
+				thead
+					tr
+						th Phone Number
+						th Time
+						th Delay
+						th Action
+				tbody
+
+
